@@ -55,7 +55,7 @@ const displayVideo = (videos) => {
           videosSection.classList.remove('grid')
           videosSection.innerHTML = `
           <div class="min-h-[300px] flex flex-col gap-5 justify-center items-center">
-          <img src="assets/icon.png" />
+          <img src="./assets/icon.png" />
           <h1 class="text-3xl font-bold text-center" >Oops!! Sorry, There is no <br> content here</h1>
           </div>
           ` ;  
